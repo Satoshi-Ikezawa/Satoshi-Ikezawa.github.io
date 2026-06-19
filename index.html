@@ -393,18 +393,20 @@
     }
 
     .highlight-visual {
-      min-height: 150px;
-      background:
-        radial-gradient(circle at 25% 30%, rgba(139,0,0,0.22), transparent 12%),
-        radial-gradient(circle at 76% 62%, rgba(20,60,120,0.18), transparent 14%),
-        linear-gradient(135deg, #f5f0ed, #edf2f7);
-      display: flex;
-      align-items: end;
-      padding: 18px;
-      color: var(--muted);
-      font-size: 0.88rem;
+      height: 180px;
+      background: #f5f0ed;
       border-bottom: 1px solid var(--line);
+      overflow: hidden;
+      display: block;
+      padding: 0;
     }
+
+.highlight-visual img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
 
     .highlight-body { padding: 22px; }
 
@@ -896,7 +898,7 @@
       <div class="grid">
         <div class="card highlight-card">
           <div class="highlight-visual">
-            Video highlight: rotating Earth metasurface hologram
+          <img src="assets/images/earth-hologram-thumb.webp" alt="One-color rotating Earth holography using metasurfaces">
           </div>
           <div class="highlight-body">
             <h3>Metasurface holographic movie</h3>
@@ -923,7 +925,7 @@
 
         <div class="card highlight-card">
           <div class="highlight-visual">
-            Image placeholder: full-color holography
+          <img src="assets/images/full-color-holography.webp" alt="Full-color holography using metasurfaces">
           </div>
           <div class="highlight-body">
             <h3>Full-color holography using metasurfaces</h3>
@@ -946,7 +948,7 @@
 
         <div class="card highlight-card">
           <div class="highlight-visual">
-            Image placeholder: varifocal metalens
+          <img src="assets/images/polarization-separating-varifocal-Alvarez metalens.webp" alt="polarization-separating-varifocal-Alvarez metalens">
           </div>
           <div class="highlight-body">
             <h3>Polarization-splitting varifocal metalens</h3>
@@ -969,7 +971,7 @@
 
         <div class="card highlight-card">
           <div class="highlight-visual">
-            Image placeholder: multifunctional metasurface
+          <img src="assets/images/multifunctional-metasurface.webp" alt="multifunctionalmetasurface for atomic clock">
           </div>
           <div class="highlight-body">
             <h3>Multifunctional integrated metasurface</h3>
@@ -992,7 +994,7 @@
 
         <div class="card highlight-card">
           <div class="highlight-visual">
-            Image placeholder: multicolor holographic movie
+          <img src="assets/images/3-color-earth-and-moon-holography.webp" alt="3-color-earth-and-moon-holography using metasurface">
           </div>
           <div class="highlight-body">
             <h3>Multicolor metasurface holographic movie</h3>
@@ -1019,7 +1021,7 @@
 
         <div class="card highlight-card">
           <div class="highlight-visual">
-            Image placeholder: future highlight
+          <img src="assets/images/on-going.webp" alt="ongoing research">
           </div>
           <div class="highlight-body">
             <h3>Advanced metasurface optical systems</h3>
